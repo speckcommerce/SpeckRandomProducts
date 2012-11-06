@@ -1,0 +1,21 @@
+{
+    "name": "speckcommerce/speck-random-products",
+    "description": "",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "http://github.com/speckcommerce/SpeckRandomProducts",
+    "authors": [
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-0": {
+            "SpeckRandomProducts": "src/",
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
