@@ -24,7 +24,7 @@ class Module
                     $helper = new View\Helper\Product;
                     $helper->setTemplate('product');
                     $helper->setCallable(array($sm->get('SpeckRandomProductMapper'), 'getFeaturedProducts'));
-                    $helper->setProductService($sm->get('catalog_product_service'));
+                    $helper->setProductService($sm->get('speckcatalog_product_service'));
                     return $helper;
                 },
             ),
