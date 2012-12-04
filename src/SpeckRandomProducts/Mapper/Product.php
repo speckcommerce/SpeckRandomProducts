@@ -2,7 +2,7 @@
 
 namespace SpeckRandomProducts\Mapper;
 
-use Catalog\Mapper\Product as SpeckProductMapper;
+use SpeckCatalog\Mapper\Product as SpeckProductMapper;
 
 class Product extends SpeckProductMapper
 {
