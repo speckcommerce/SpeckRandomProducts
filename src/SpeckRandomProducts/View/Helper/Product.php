@@ -15,11 +15,6 @@ class Product extends AbstractHelper
 
     public function __invoke($params=null)
     {
-
-
-        return '';
-
-
         $params = ($params ?: $this->params);
         $products = call_user_func_array($this->callable, $this->params);
 

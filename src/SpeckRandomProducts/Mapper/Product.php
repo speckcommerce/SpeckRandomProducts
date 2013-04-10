@@ -16,6 +16,7 @@ class Product extends SpeckProductMapper
             ->join($linker, $table . '.product_id = ' . $linker . '.product_id')
             ->where(array('website_id' => $siteId))
             ->limit($limit);
-        return $this->selectMany($select);
+
+        return $this->selectManyModels($select);
     }
 }
